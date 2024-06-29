@@ -87,19 +87,40 @@
 					</div> 
 					<!-- End Column 1 -->
 
-					<!-- Start Column 2 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-						<a class="product-item" href="#">
-							<img src="images/product-1.png" class="img-fluid product-thumbnail">
-							<h3 class="product-title">Nordic Chair</h3>
-							<strong class="product-price">Rp15.000</strong>
+<!-- Start Column 2 -->
+<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+	<a class="product-item" href="#">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+	<img src="images/product-1.png" class="img-fluid product-thumbnail">
+</button>
+<h3 class="product-title">Nordic Chair</h3>
+<strong class="product-price">Rp15.000</strong>
+		<span class="icon-cross">
+			<img src="images/cross.svg" class="img-fluid">
+		</span>
+	</a>
+</div>
 
-							<span class="icon-cross">
-								<img src="images/cross.svg" class="img-fluid">
-							</span>
-						</a>
-					</div> 
-					<!-- End Column 2 -->
+<!-- End Column 2 -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-white">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Nordic Chair</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Add product details here -->
+        <img src="images/product-1.png" class="img-fluid product-thumbnail mb-3">
+        <p>Product description goes here. It can include features, dimensions, and other relevant information.</p>
+        <strong class="product-price">Rp15.000</strong>
+      </div>
+    </div>
+  </div>
+</div>
 
 					<!-- Start Column 3 -->
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">

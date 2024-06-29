@@ -266,6 +266,13 @@ a {
     padding-bottom: 50px;
     cursor: pointer;
 
+    .product-box {
+      background-color: white;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
     .product-thumbnail {
       margin-bottom: 30px;
       position: relative;
