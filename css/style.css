@@ -10,6 +10,12 @@ body {
   position: relative;
 }
 
+.btn-transparent {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
